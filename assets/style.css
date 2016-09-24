@@ -1,8 +1,8 @@
 
 
 h1 {
-    color: white;
-    margin: 100px;
+    color: #FFFFFF;
+    margin: 154px;
     display:inline;
     background-color:#4aaaa5;
     border: 20px solid #4aaaa5;
@@ -11,9 +11,40 @@ h1 {
 
 h2 {
 	color: #4aaaa5;
+	padding: 1em;
 }
 
-li {
-	display:inline;
-	text-align: right;
+.aboutme {
+    width:600px;
+    border-top: 2px solid #cccccc;
 }
+
+hr {
+	display:block;
+	border-top: 1px solid #cccccc;
+	margin-top: 20px;
+
+}
+
+img {
+	float: left;
+	padding:1em;
+}
+
+.boxed {
+	text-align: left center;
+    width: 650px;
+    border: 1px solid #cccccc;
+    margin-top: 30px;
+    margin-left: 154px;
+   }
+
+ .connect	{
+ 	width: 270px;
+    border: 1px solid #cccccc;
+    margin-bottom: 800em;
+    margin-left: 900px;
+    padding-bottom: 60px;
+
+ 
+ }

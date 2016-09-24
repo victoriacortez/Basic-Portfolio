@@ -1,0 +1,19 @@
+
+
+h1 {
+    color: white;
+    margin: 100px;
+    display:inline;
+    background-color:#4aaaa5;
+    border: 20px solid #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+h2 {
+	color: #4aaaa5;
+}
+
+li {
+	display:inline;
+	text-align: right;
+}

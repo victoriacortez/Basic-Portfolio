@@ -2,6 +2,14 @@
     background: url(assets/images/swirl_pattern.jpg) no-repeat center center fixed;
 }
 
+.head{
+    background-color: #ffffff;
+    width:100%;
+    height:68px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+
+}
 
 body{
     font-family: 'Georgia', Times, Times New Roman, serif;
@@ -33,10 +41,12 @@ a{
 h2 {
 	color: #4aaaa5;
 	padding: 1em;
+    background-color:white;
 }
 
 .aboutme {
     width:600px;
+    background-color:#000000;
     border-top: 2px solid #cccccc;
 }
 
@@ -47,8 +57,9 @@ hr {
 }
 
 .responsive{
-padding: 15px;
+    padding: 15px;
     text-align: center;
+    background-color:white;
 }
 
 img {
@@ -62,8 +73,9 @@ img {
     width: 650px;
     border: 1px solid #cccccc;
     position:absolute;
-    top:100px;
+    top:110px;
     left: 160px;
+    background:#ffffff;
    }
 
 .boxed2{
@@ -71,9 +83,10 @@ img {
     height:200px;
     width:260px;
     right:150px;
-    top:100px;
+    top:110px;
     border: 1px solid #cccccc ;
     color:#4aaaa5;
+    background:#ffffff;
   
  }
 
@@ -85,7 +98,8 @@ img {
     margin: 30px;
     float:left;
     left:130px;
-    border: 1px solid #cccccc ;
+    border: 1px solid #cccccc;
+    background:#ffffff;
 }   
 
 #pic{
@@ -110,6 +124,7 @@ footer{
     border-top: 1px solid #cccccc;
     margin-top: 30px;
     width:100%;
+    background-color: white;
     
 }
 
@@ -136,6 +151,7 @@ footer{
 
 .box {
     display:block;
+    background-color:white;
     border-top: 1px solid #cccccc;
     margin-top: 10px;
     width:80%;

@@ -1,12 +1,33 @@
+#background{
+    background: url(assets/images/swirl_pattern.jpg) no-repeat center center fixed;
+}
 
 
+body{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background-color: #f89d8a;
+    background: url(assets/images/swirl_pattern.jpg) no-repeat center center fixed;
+}
 h1 {
     color: #FFFFFF;
+    font-family: 'Georgia', Times, Times New Roman, serif;
     margin: 154px;
     display:inline;
     background-color:#4aaaa5;
-    border: 20px solid #4aaaa5;
-    font-family: 'Georgia', Times, Times New Roman, serif;
+    border: 30px solid #4aaaa5;
+    
+}
+
+p{
+   vertical-align: text-top
+}
+a{
+    float:right;
+    color: #cccccc;
+    text-decoration: none;
+    vertical-align: center;
+    margin:15px;
+    margin-top: -30px;
 }
 
 h2 {
@@ -23,28 +44,99 @@ hr {
 	display:block;
 	border-top: 1px solid #cccccc;
 	margin-top: 20px;
+}
 
+.responsive{
+padding: 15px;
+    text-align: center;
 }
 
 img {
-	float: left;
-	padding:1em;
+    float: left;
+    padding:1em;
+    left:16px;
 }
 
-.boxed {
+.boxed1 {
 	text-align: left center;
     width: 650px;
     border: 1px solid #cccccc;
-    margin-top: 30px;
-    margin-left: 154px;
+    position:absolute;
+    top:100px;
+    left: 160px;
    }
 
- .connect	{
- 	width: 270px;
-    border: 1px solid #cccccc;
-    margin-bottom: 800em;
-    margin-left: 900px;
-    padding-bottom: 60px;
-
- 
+.boxed2{
+    position:absolute;
+    height:200px;
+    width:260px;
+    right:150px;
+    top:100px;
+    border: 1px solid #cccccc ;
+    color:#4aaaa5;
+  
  }
+
+.boxed3{
+    position:absolute;
+    height:560px;
+    width:420px;
+    color:#4aaaa5;
+    margin: 30px;
+    float:left;
+    left:130px;
+    border: 1px solid #cccccc ;
+}   
+
+#pic{
+    top: 185px;
+    right: 143px;
+    position:absolute;
+}
+
+footer{
+    background:#666666;
+    clear:both;
+    padding-top: 60px;
+    color:#cccccc;
+    text-align:center;
+    margin-top: -27px;
+    width:100%;
+    text-align: center;
+            }
+
+.me {
+    display:block;
+    border-top: 1px solid #cccccc;
+    margin-top: 30px;
+    width:100%;
+    
+}
+
+.one{
+    float:left;
+    margin-left: 2px;
+
+}
+.two {
+    float:right;
+    margin-top: -167px;
+}
+
+.four{
+    float:right;
+    margin-top:-167px;
+}
+.foot{
+    display:block;
+    border-top: 5px solid #4aaaa5;
+    margin-top: 500px;
+    width:100%;
+}
+
+.box {
+    display:block;
+    border-top: 1px solid #cccccc;
+    margin-top: 10px;
+    width:80%;
+}
